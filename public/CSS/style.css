@@ -7,7 +7,14 @@ body {
   align-items: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #f5f5f5;
+  background: url(../images/bg2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.title {
+  color: white;
+  font-family: cursive;
+  font-weight: bolder;
 }
 
 .form-signin {
@@ -20,19 +27,21 @@ body {
 }
 
 .top {
-  margin-bottom: -1px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
+  background-color: rgba(255, 255, 0, 0.76);
+  border: 2px solid black;
+  margin-bottom: 9px;
+  border-radius: 7px;
 }
 
 .middle {
-  margin-bottom: -1px;
-  border-radius: 0;
-  /* border-top-left-radius: 0;
-  border-top-right-radius: 0; */
+  background-color: rgba(255, 255, 0, 0.76);
+  border: 2px solid black;
+  margin-bottom: 9px;
+  border-radius: 7px;
 }
 .bottom {
+  background-color: rgba(255, 255, 0, 0.76);
+  border: 2px solid black;
   margin-bottom: 10px;
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
+  border-radius: 7px;
 }
