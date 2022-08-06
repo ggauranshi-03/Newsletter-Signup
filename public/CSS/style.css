@@ -1,8 +1,4 @@
 body {
-  height: 100%;
-}
-
-body {
   display: flex;
   align-items: center;
   padding-top: 40px;
@@ -11,9 +7,23 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
 }
+h1 {
+  padding-top: 0px;
+}
+form {
+  margin-top: 30px;
+}
+img {
+  margin-top: 5px;
+}
+.box {
+  background-color: black;
+  padding: 5px 5px 8px 5px;
+  border-radius: 5px;
+}
 .title {
   color: white;
-  font-family: cursive;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: bolder;
 }
 
